@@ -56,9 +56,7 @@ public class MaceListener implements Listener {
     @EventHandler(priority = EventPriority.HIGH, ignoreCancelled = true)
     public void onInventoryClick(InventoryClickEvent event) {
         if (!(event.getWhoClicked() instanceof Player player)) return;
-
         ItemStack cursor = event.getCursor();
-
         if (cursor != null && cursor.getType() == Material.MACE) {
             if (event.getClickedInventory() != null
                     && event.getClickedInventory().equals(player.getInventory())) {
