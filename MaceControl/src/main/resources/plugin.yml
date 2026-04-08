@@ -1,0 +1,16 @@
+name: MaceControl
+version: ${project.version}
+main: com.macecontrol.MaceControl
+api-version: '1.21'
+description: Limits maces per player and globally on the server
+
+commands:
+  mace:
+    description: MaceControl admin commands
+    usage: /mace amount set <number>
+    permission: macecontrol.admin
+
+permissions:
+  macecontrol.admin:
+    description: Allows use of /mace admin commands
+    default: op

@@ -1,0 +1,5 @@
+# MaceControl Configuration
+# max-global: Maximum number of maces allowed to exist across the entire server at once
+# max-per-player: Maximum number of maces allowed in a single player's inventory
+max-global: 3
+max-per-player: 1
